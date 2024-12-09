@@ -24,7 +24,7 @@ twirl_threshold = 100  # Minimum distance for hair twirl motion (adjust as neces
 time_interval = 3  # Time interval in seconds to detect a twirl
 
 # Initialize sound file and alert cooldown
-sound_file = "alert_sound.mp3"
+sound_file = "C:/Users/annalysa/Videos/ding_sound.mp3"
 alert_cooldown = 2
 last_alert_time = 0
 
