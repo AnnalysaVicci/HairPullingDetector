@@ -3,7 +3,6 @@ Program to detect when user in the webcam capture is twirling their hair and pla
 
 # Known Issues
 Too sensitive - sometimes alerts when hand is put up to head.
-Not accurate enough
 
 # Dependencies
 OpenCV, MediaPip, Numpy, Playsound

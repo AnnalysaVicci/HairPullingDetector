@@ -24,7 +24,7 @@ twirl_threshold = 100  # Minimum distance for hair twirl motion (adjust as neces
 time_interval = 3  # Time interval in seconds to detect a twirl
 
 # Initialize sound file and alert cooldown
-sound_file = "C:/Users/annalysa/Videos/ding_sound.mp3"
+sound_file = "./sounds/ding_sound.mp3"
 alert_cooldown = 2
 last_alert_time = 0
 
@@ -59,6 +59,7 @@ while cap.isOpened():
                     if current_time - last_alert_time > alert_cooldown:
                         print("Hair twirling detected!")
                         if os.path.exists(sound_file):
+                            playsound('./sounds/ding_sound.mp3')
                             playsound(sound_file)
                         last_alert_time = current_time
 
